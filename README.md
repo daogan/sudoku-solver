@@ -1,9 +1,9 @@
 # Sudoku Solver
 
-A sudoku solver 
+A sudoku solver using Knuth's Algorithm X and dancing links data structure.
 
-![] (https://github.com/daogan/sudoku-solver/raw/master/screenshot-1.png)
-![] (https://github.com/daogan/sudoku-solver/raw/master/screenshot-2.png)
+![] (https://raw.github.com/daogan/sudoku-solver/master/screenshot/Screenshot-1.png)
+![] (https://raw.github.com/daogan/sudoku-solver/master/screenshot/Screenshot-2.png)
 
 Solving a sudoku can be mapped to solving an Exact Cover Problem:
 
@@ -16,8 +16,8 @@ Solving a sudoku can be mapped to solving an Exact Cover Problem:
  + Each Sudoku cell state can be specified by [Row, Col, Value], total 9x9x9 = 729 states, use 729 rows to specify these states.
  
  
-In file `config.py`, 'Change the value of `BOX_SIZE` to get different dimensions of the sudoku you want to solve, 
-change the value of `CHAR` to set the cells' representative characters.
+In file `config.py`, Change the value of `BOX_SIZE` to get different dimensions of the sudoku you want to solve, 
+change the value of `CHAR` to set the cells' displaying characters.
  
  
 ## Usage
