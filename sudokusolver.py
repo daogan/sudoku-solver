@@ -72,7 +72,7 @@ class SudokuSolver(object):
             self.compute_answer()
             print self.answer
         else:
-            print 'no sulution'
+            print 'no solution'
 
     def construct_matrix(self):
 
